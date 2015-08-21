@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <script type='text/javascript'>
+    var canvas = null;
+    function onload() {
+      canvas = document.getElementById('gameCanvas');
+      var ctx = canvas.getContext("2d");
+      ctx.fillStyle = '#000000';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#333333';
+      ctx.fillRect(canvas.width / 3, canvas.height / 3,
+                   canvas.width / 3, canvas.height / 3);
+    }
+  </script>
+</head>
+<body onload='onload()' ...
+
+<body style='position: absolute; padding:0; margin:0; height: 100%; width:100%'>
+
+<canvas id="gameCanvas"></canvas>
+
+</body>
+</html>
